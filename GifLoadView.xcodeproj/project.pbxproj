@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E6D7DBD1E95E6D100D2D4FF /* icon_error_coupon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D7DA91E95E6D100D2D4FF /* icon_error_coupon@2x.png */; };
+		7E6D7DBE1E95E6D100D2D4FF /* icon_error_coupon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D7DAA1E95E6D100D2D4FF /* icon_error_coupon@3x.png */; };
+		7E6D7DBF1E95E6D100D2D4FF /* icon_hud_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D7DAB1E95E6D100D2D4FF /* icon_hud_1@2x.png */; };
+		7E6D7DC01E95E6D100D2D4FF /* icon_hud_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D7DAC1E95E6D100D2D4FF /* icon_hud_1@3x.png */; };
+		7E6D7DC11E95E6D100D2D4FF /* icon_hud_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D7DAD1E95E6D100D2D4FF /* icon_hud_2@2x.png */; };
+		7E6D7DC21E95E6D100D2D4FF /* icon_hud_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D7DAE1E95E6D100D2D4FF /* icon_hud_2@3x.png */; };
+		7E6D7DC31E95E6D100D2D4FF /* icon_hud_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D7DAF1E95E6D100D2D4FF /* icon_hud_3@2x.png */; };
+		7E6D7DC41E95E6D100D2D4FF /* icon_hud_3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D7DB01E95E6D100D2D4FF /* icon_hud_3@3x.png */; };
+		7E6D7DC51E95E6D100D2D4FF /* icon_hud_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D7DB11E95E6D100D2D4FF /* icon_hud_4@2x.png */; };
+		7E6D7DC61E95E6D100D2D4FF /* icon_hud_4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D7DB21E95E6D100D2D4FF /* icon_hud_4@3x.png */; };
+		7E6D7DC71E95E6D100D2D4FF /* icon_hud_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D7DB31E95E6D100D2D4FF /* icon_hud_5@2x.png */; };
+		7E6D7DC81E95E6D100D2D4FF /* icon_hud_5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D7DB41E95E6D100D2D4FF /* icon_hud_5@3x.png */; };
+		7E6D7DC91E95E6D100D2D4FF /* icon_hud_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D7DB51E95E6D100D2D4FF /* icon_hud_6@2x.png */; };
+		7E6D7DCA1E95E6D100D2D4FF /* icon_hud_6@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D7DB61E95E6D100D2D4FF /* icon_hud_6@3x.png */; };
+		7E6D7DCB1E95E6D100D2D4FF /* icon_hud_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D7DB71E95E6D100D2D4FF /* icon_hud_7@2x.png */; };
+		7E6D7DCC1E95E6D100D2D4FF /* icon_hud_7@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D7DB81E95E6D100D2D4FF /* icon_hud_7@3x.png */; };
+		7E6D7DCD1E95E6D100D2D4FF /* icon_hud_8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D7DB91E95E6D100D2D4FF /* icon_hud_8@2x.png */; };
+		7E6D7DCE1E95E6D100D2D4FF /* icon_hud_8@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D7DBA1E95E6D100D2D4FF /* icon_hud_8@3x.png */; };
+		7E6D7DCF1E95E6D100D2D4FF /* icon_hud_9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D7DBB1E95E6D100D2D4FF /* icon_hud_9@2x.png */; };
+		7E6D7DD01E95E6D100D2D4FF /* icon_hud_9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D7DBC1E95E6D100D2D4FF /* icon_hud_9@3x.png */; };
+		7E8412D01E972E2A00A54076 /* icon_no_record@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E8412CE1E972E2A00A54076 /* icon_no_record@2x.png */; };
+		7E8412D11E972E2A00A54076 /* icon_no_record@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E8412CF1E972E2A00A54076 /* icon_no_record@3x.png */; };
+		7ED6B8911E94E3A900F35C01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED6B8901E94E3A900F35C01 /* AppDelegate.swift */; };
+		7ED6B8931E94E3A900F35C01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED6B8921E94E3A900F35C01 /* ViewController.swift */; };
+		7ED6B8961E94E3AA00F35C01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ED6B8941E94E3AA00F35C01 /* Main.storyboard */; };
+		7ED6B8981E94E3AA00F35C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED6B8971E94E3AA00F35C01 /* Assets.xcassets */; };
+		7ED6B89B1E94E3AA00F35C01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ED6B8991E94E3AA00F35C01 /* LaunchScreen.storyboard */; };
+		7ED6B8A61E94E3AA00F35C01 /* GifLoadViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED6B8A51E94E3AA00F35C01 /* GifLoadViewTests.swift */; };
+		7ED6B8B11E94E3AB00F35C01 /* GifLoadViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED6B8B01E94E3AB00F35C01 /* GifLoadViewUITests.swift */; };
+		7ED6B8BF1E94E3DE00F35C01 /* LWTGifLoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED6B8BE1E94E3DE00F35C01 /* LWTGifLoadView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7ED6B8A21E94E3AA00F35C01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ED6B8851E94E3A900F35C01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ED6B88C1E94E3A900F35C01;
+			remoteInfo = GifLoadView;
+		};
+		7ED6B8AD1E94E3AB00F35C01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ED6B8851E94E3A900F35C01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ED6B88C1E94E3A900F35C01;
+			remoteInfo = GifLoadView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E6D7DA91E95E6D100D2D4FF /* icon_error_coupon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_error_coupon@2x.png"; sourceTree = "<group>"; };
+		7E6D7DAA1E95E6D100D2D4FF /* icon_error_coupon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_error_coupon@3x.png"; sourceTree = "<group>"; };
+		7E6D7DAB1E95E6D100D2D4FF /* icon_hud_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_hud_1@2x.png"; sourceTree = "<group>"; };
+		7E6D7DAC1E95E6D100D2D4FF /* icon_hud_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_hud_1@3x.png"; sourceTree = "<group>"; };
+		7E6D7DAD1E95E6D100D2D4FF /* icon_hud_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_hud_2@2x.png"; sourceTree = "<group>"; };
+		7E6D7DAE1E95E6D100D2D4FF /* icon_hud_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_hud_2@3x.png"; sourceTree = "<group>"; };
+		7E6D7DAF1E95E6D100D2D4FF /* icon_hud_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_hud_3@2x.png"; sourceTree = "<group>"; };
+		7E6D7DB01E95E6D100D2D4FF /* icon_hud_3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_hud_3@3x.png"; sourceTree = "<group>"; };
+		7E6D7DB11E95E6D100D2D4FF /* icon_hud_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_hud_4@2x.png"; sourceTree = "<group>"; };
+		7E6D7DB21E95E6D100D2D4FF /* icon_hud_4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_hud_4@3x.png"; sourceTree = "<group>"; };
+		7E6D7DB31E95E6D100D2D4FF /* icon_hud_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_hud_5@2x.png"; sourceTree = "<group>"; };
+		7E6D7DB41E95E6D100D2D4FF /* icon_hud_5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_hud_5@3x.png"; sourceTree = "<group>"; };
+		7E6D7DB51E95E6D100D2D4FF /* icon_hud_6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_hud_6@2x.png"; sourceTree = "<group>"; };
+		7E6D7DB61E95E6D100D2D4FF /* icon_hud_6@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_hud_6@3x.png"; sourceTree = "<group>"; };
+		7E6D7DB71E95E6D100D2D4FF /* icon_hud_7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_hud_7@2x.png"; sourceTree = "<group>"; };
+		7E6D7DB81E95E6D100D2D4FF /* icon_hud_7@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_hud_7@3x.png"; sourceTree = "<group>"; };
+		7E6D7DB91E95E6D100D2D4FF /* icon_hud_8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_hud_8@2x.png"; sourceTree = "<group>"; };
+		7E6D7DBA1E95E6D100D2D4FF /* icon_hud_8@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_hud_8@3x.png"; sourceTree = "<group>"; };
+		7E6D7DBB1E95E6D100D2D4FF /* icon_hud_9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_hud_9@2x.png"; sourceTree = "<group>"; };
+		7E6D7DBC1E95E6D100D2D4FF /* icon_hud_9@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_hud_9@3x.png"; sourceTree = "<group>"; };
+		7E8412CE1E972E2A00A54076 /* icon_no_record@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_no_record@2x.png"; sourceTree = "<group>"; };
+		7E8412CF1E972E2A00A54076 /* icon_no_record@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_no_record@3x.png"; sourceTree = "<group>"; };
+		7ED6B88D1E94E3A900F35C01 /* GifLoadView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifLoadView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ED6B8901E94E3A900F35C01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7ED6B8921E94E3A900F35C01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7ED6B8951E94E3AA00F35C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7ED6B8971E94E3AA00F35C01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7ED6B89A1E94E3AA00F35C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7ED6B89C1E94E3AA00F35C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ED6B8A11E94E3AA00F35C01 /* GifLoadViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GifLoadViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ED6B8A51E94E3AA00F35C01 /* GifLoadViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifLoadViewTests.swift; sourceTree = "<group>"; };
+		7ED6B8A71E94E3AA00F35C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ED6B8AC1E94E3AA00F35C01 /* GifLoadViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GifLoadViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ED6B8B01E94E3AB00F35C01 /* GifLoadViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifLoadViewUITests.swift; sourceTree = "<group>"; };
+		7ED6B8B21E94E3AB00F35C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ED6B8BE1E94E3DE00F35C01 /* LWTGifLoadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LWTGifLoadView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ED6B88A1E94E3A900F35C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ED6B89E1E94E3AA00F35C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ED6B8A91E94E3AA00F35C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E6D7DA81E95E6D100D2D4FF /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E8412CE1E972E2A00A54076 /* icon_no_record@2x.png */,
+				7E8412CF1E972E2A00A54076 /* icon_no_record@3x.png */,
+				7E6D7DA91E95E6D100D2D4FF /* icon_error_coupon@2x.png */,
+				7E6D7DAA1E95E6D100D2D4FF /* icon_error_coupon@3x.png */,
+				7E6D7DAB1E95E6D100D2D4FF /* icon_hud_1@2x.png */,
+				7E6D7DAC1E95E6D100D2D4FF /* icon_hud_1@3x.png */,
+				7E6D7DAD1E95E6D100D2D4FF /* icon_hud_2@2x.png */,
+				7E6D7DAE1E95E6D100D2D4FF /* icon_hud_2@3x.png */,
+				7E6D7DAF1E95E6D100D2D4FF /* icon_hud_3@2x.png */,
+				7E6D7DB01E95E6D100D2D4FF /* icon_hud_3@3x.png */,
+				7E6D7DB11E95E6D100D2D4FF /* icon_hud_4@2x.png */,
+				7E6D7DB21E95E6D100D2D4FF /* icon_hud_4@3x.png */,
+				7E6D7DB31E95E6D100D2D4FF /* icon_hud_5@2x.png */,
+				7E6D7DB41E95E6D100D2D4FF /* icon_hud_5@3x.png */,
+				7E6D7DB51E95E6D100D2D4FF /* icon_hud_6@2x.png */,
+				7E6D7DB61E95E6D100D2D4FF /* icon_hud_6@3x.png */,
+				7E6D7DB71E95E6D100D2D4FF /* icon_hud_7@2x.png */,
+				7E6D7DB81E95E6D100D2D4FF /* icon_hud_7@3x.png */,
+				7E6D7DB91E95E6D100D2D4FF /* icon_hud_8@2x.png */,
+				7E6D7DBA1E95E6D100D2D4FF /* icon_hud_8@3x.png */,
+				7E6D7DBB1E95E6D100D2D4FF /* icon_hud_9@2x.png */,
+				7E6D7DBC1E95E6D100D2D4FF /* icon_hud_9@3x.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		7ED6B8841E94E3A900F35C01 = {
+			isa = PBXGroup;
+			children = (
+				7ED6B88F1E94E3A900F35C01 /* GifLoadView */,
+				7ED6B8A41E94E3AA00F35C01 /* GifLoadViewTests */,
+				7ED6B8AF1E94E3AB00F35C01 /* GifLoadViewUITests */,
+				7ED6B88E1E94E3A900F35C01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7ED6B88E1E94E3A900F35C01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ED6B88D1E94E3A900F35C01 /* GifLoadView.app */,
+				7ED6B8A11E94E3AA00F35C01 /* GifLoadViewTests.xctest */,
+				7ED6B8AC1E94E3AA00F35C01 /* GifLoadViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ED6B88F1E94E3A900F35C01 /* GifLoadView */ = {
+			isa = PBXGroup;
+			children = (
+				7E6D7DA81E95E6D100D2D4FF /* resources */,
+				7ED6B8BE1E94E3DE00F35C01 /* LWTGifLoadView.swift */,
+				7ED6B8901E94E3A900F35C01 /* AppDelegate.swift */,
+				7ED6B8921E94E3A900F35C01 /* ViewController.swift */,
+				7ED6B8941E94E3AA00F35C01 /* Main.storyboard */,
+				7ED6B8971E94E3AA00F35C01 /* Assets.xcassets */,
+				7ED6B8991E94E3AA00F35C01 /* LaunchScreen.storyboard */,
+				7ED6B89C1E94E3AA00F35C01 /* Info.plist */,
+			);
+			path = GifLoadView;
+			sourceTree = "<group>";
+		};
+		7ED6B8A41E94E3AA00F35C01 /* GifLoadViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7ED6B8A51E94E3AA00F35C01 /* GifLoadViewTests.swift */,
+				7ED6B8A71E94E3AA00F35C01 /* Info.plist */,
+			);
+			path = GifLoadViewTests;
+			sourceTree = "<group>";
+		};
+		7ED6B8AF1E94E3AB00F35C01 /* GifLoadViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7ED6B8B01E94E3AB00F35C01 /* GifLoadViewUITests.swift */,
+				7ED6B8B21E94E3AB00F35C01 /* Info.plist */,
+			);
+			path = GifLoadViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ED6B88C1E94E3A900F35C01 /* GifLoadView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ED6B8B51E94E3AB00F35C01 /* Build configuration list for PBXNativeTarget "GifLoadView" */;
+			buildPhases = (
+				7ED6B8891E94E3A900F35C01 /* Sources */,
+				7ED6B88A1E94E3A900F35C01 /* Frameworks */,
+				7ED6B88B1E94E3A900F35C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GifLoadView;
+			productName = GifLoadView;
+			productReference = 7ED6B88D1E94E3A900F35C01 /* GifLoadView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7ED6B8A01E94E3AA00F35C01 /* GifLoadViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ED6B8B81E94E3AB00F35C01 /* Build configuration list for PBXNativeTarget "GifLoadViewTests" */;
+			buildPhases = (
+				7ED6B89D1E94E3AA00F35C01 /* Sources */,
+				7ED6B89E1E94E3AA00F35C01 /* Frameworks */,
+				7ED6B89F1E94E3AA00F35C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ED6B8A31E94E3AA00F35C01 /* PBXTargetDependency */,
+			);
+			name = GifLoadViewTests;
+			productName = GifLoadViewTests;
+			productReference = 7ED6B8A11E94E3AA00F35C01 /* GifLoadViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7ED6B8AB1E94E3AA00F35C01 /* GifLoadViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ED6B8BB1E94E3AB00F35C01 /* Build configuration list for PBXNativeTarget "GifLoadViewUITests" */;
+			buildPhases = (
+				7ED6B8A81E94E3AA00F35C01 /* Sources */,
+				7ED6B8A91E94E3AA00F35C01 /* Frameworks */,
+				7ED6B8AA1E94E3AA00F35C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ED6B8AE1E94E3AB00F35C01 /* PBXTargetDependency */,
+			);
+			name = GifLoadViewUITests;
+			productName = GifLoadViewUITests;
+			productReference = 7ED6B8AC1E94E3AA00F35C01 /* GifLoadViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ED6B8851E94E3A900F35C01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Haochuang;
+				TargetAttributes = {
+					7ED6B88C1E94E3A900F35C01 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					7ED6B8A01E94E3AA00F35C01 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7ED6B88C1E94E3A900F35C01;
+					};
+					7ED6B8AB1E94E3AA00F35C01 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7ED6B88C1E94E3A900F35C01;
+					};
+				};
+			};
+			buildConfigurationList = 7ED6B8881E94E3A900F35C01 /* Build configuration list for PBXProject "GifLoadView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7ED6B8841E94E3A900F35C01;
+			productRefGroup = 7ED6B88E1E94E3A900F35C01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ED6B88C1E94E3A900F35C01 /* GifLoadView */,
+				7ED6B8A01E94E3AA00F35C01 /* GifLoadViewTests */,
+				7ED6B8AB1E94E3AA00F35C01 /* GifLoadViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ED6B88B1E94E3A900F35C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6D7DC11E95E6D100D2D4FF /* icon_hud_2@2x.png in Resources */,
+				7ED6B89B1E94E3AA00F35C01 /* LaunchScreen.storyboard in Resources */,
+				7E6D7DCC1E95E6D100D2D4FF /* icon_hud_7@3x.png in Resources */,
+				7E6D7DC21E95E6D100D2D4FF /* icon_hud_2@3x.png in Resources */,
+				7E6D7DCB1E95E6D100D2D4FF /* icon_hud_7@2x.png in Resources */,
+				7E6D7DC01E95E6D100D2D4FF /* icon_hud_1@3x.png in Resources */,
+				7E6D7DBF1E95E6D100D2D4FF /* icon_hud_1@2x.png in Resources */,
+				7E6D7DCA1E95E6D100D2D4FF /* icon_hud_6@3x.png in Resources */,
+				7E6D7DC31E95E6D100D2D4FF /* icon_hud_3@2x.png in Resources */,
+				7E6D7DC61E95E6D100D2D4FF /* icon_hud_4@3x.png in Resources */,
+				7E8412D11E972E2A00A54076 /* icon_no_record@3x.png in Resources */,
+				7E6D7DBE1E95E6D100D2D4FF /* icon_error_coupon@3x.png in Resources */,
+				7E6D7DCF1E95E6D100D2D4FF /* icon_hud_9@2x.png in Resources */,
+				7E6D7DC41E95E6D100D2D4FF /* icon_hud_3@3x.png in Resources */,
+				7E8412D01E972E2A00A54076 /* icon_no_record@2x.png in Resources */,
+				7E6D7DD01E95E6D100D2D4FF /* icon_hud_9@3x.png in Resources */,
+				7ED6B8981E94E3AA00F35C01 /* Assets.xcassets in Resources */,
+				7E6D7DCE1E95E6D100D2D4FF /* icon_hud_8@3x.png in Resources */,
+				7E6D7DBD1E95E6D100D2D4FF /* icon_error_coupon@2x.png in Resources */,
+				7E6D7DCD1E95E6D100D2D4FF /* icon_hud_8@2x.png in Resources */,
+				7E6D7DC51E95E6D100D2D4FF /* icon_hud_4@2x.png in Resources */,
+				7E6D7DC91E95E6D100D2D4FF /* icon_hud_6@2x.png in Resources */,
+				7ED6B8961E94E3AA00F35C01 /* Main.storyboard in Resources */,
+				7E6D7DC71E95E6D100D2D4FF /* icon_hud_5@2x.png in Resources */,
+				7E6D7DC81E95E6D100D2D4FF /* icon_hud_5@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ED6B89F1E94E3AA00F35C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ED6B8AA1E94E3AA00F35C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ED6B8891E94E3A900F35C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ED6B8BF1E94E3DE00F35C01 /* LWTGifLoadView.swift in Sources */,
+				7ED6B8931E94E3A900F35C01 /* ViewController.swift in Sources */,
+				7ED6B8911E94E3A900F35C01 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ED6B89D1E94E3AA00F35C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ED6B8A61E94E3AA00F35C01 /* GifLoadViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ED6B8A81E94E3AA00F35C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ED6B8B11E94E3AB00F35C01 /* GifLoadViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7ED6B8A31E94E3AA00F35C01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ED6B88C1E94E3A900F35C01 /* GifLoadView */;
+			targetProxy = 7ED6B8A21E94E3AA00F35C01 /* PBXContainerItemProxy */;
+		};
+		7ED6B8AE1E94E3AB00F35C01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ED6B88C1E94E3A900F35C01 /* GifLoadView */;
+			targetProxy = 7ED6B8AD1E94E3AB00F35C01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7ED6B8941E94E3AA00F35C01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ED6B8951E94E3AA00F35C01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7ED6B8991E94E3AA00F35C01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ED6B89A1E94E3AA00F35C01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7ED6B8B31E94E3AB00F35C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7ED6B8B41E94E3AB00F35C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ED6B8B61E94E3AB00F35C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GifLoadView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qhfax.com.GifLoadView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7ED6B8B71E94E3AB00F35C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GifLoadView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qhfax.com.GifLoadView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7ED6B8B91E94E3AB00F35C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GifLoadViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qhfax.com.GifLoadViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GifLoadView.app/GifLoadView";
+			};
+			name = Debug;
+		};
+		7ED6B8BA1E94E3AB00F35C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GifLoadViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qhfax.com.GifLoadViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GifLoadView.app/GifLoadView";
+			};
+			name = Release;
+		};
+		7ED6B8BC1E94E3AB00F35C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GifLoadViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qhfax.com.GifLoadViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GifLoadView;
+			};
+			name = Debug;
+		};
+		7ED6B8BD1E94E3AB00F35C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GifLoadViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qhfax.com.GifLoadViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GifLoadView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ED6B8881E94E3A900F35C01 /* Build configuration list for PBXProject "GifLoadView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ED6B8B31E94E3AB00F35C01 /* Debug */,
+				7ED6B8B41E94E3AB00F35C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ED6B8B51E94E3AB00F35C01 /* Build configuration list for PBXNativeTarget "GifLoadView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ED6B8B61E94E3AB00F35C01 /* Debug */,
+				7ED6B8B71E94E3AB00F35C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ED6B8B81E94E3AB00F35C01 /* Build configuration list for PBXNativeTarget "GifLoadViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ED6B8B91E94E3AB00F35C01 /* Debug */,
+				7ED6B8BA1E94E3AB00F35C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ED6B8BB1E94E3AB00F35C01 /* Build configuration list for PBXNativeTarget "GifLoadViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ED6B8BC1E94E3AB00F35C01 /* Debug */,
+				7ED6B8BD1E94E3AB00F35C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ED6B8851E94E3A900F35C01 /* Project object */;
+}
