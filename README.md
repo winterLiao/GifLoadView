@@ -1,5 +1,5 @@
 ### gifLoadView
-![加载视图](http://ok841h9gr.bkt.clouddn.com/gifLoadView.gif)
+![加载视图](http://ok841h9gr.bkt.clouddn.com/gifLoadView.gif)    
 一句话就可以为视图添加加载
 ``` swift
         let loadView = LWTGifLoadView(frame:self.view.frame, callback:{
